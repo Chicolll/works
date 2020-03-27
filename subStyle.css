@@ -20,7 +20,7 @@ h1{
             animation: fadein2 0.7s;
 }
 #chico{
-  font-family: 'avenir';
+  font-family: 'PT Sans';
   text-decoration: underline;
   color: #121212;
 }
@@ -97,6 +97,17 @@ li {
   width: 100%;
   display: block;
   text-align: center;
+  padding-bottom: 5%;
+
+}
+.soundcloud{
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+#audio{
+  font-family: 'PT Sans', sans-serif;
+  text-align: center;
+  color: 121212;
 }
 .singleVideo{
   width: 80%;

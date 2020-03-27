@@ -1,13 +1,13 @@
 #selected{
 	font-family: "Avenir";
-	font-size: 90pt;
+	font-size: 80pt;
 	padding-left: 3%;
 	padding-top: 1%;
 }
 
 #section1{
 	color:#121212;
-	font-size: 40pt;
+	font-size: 35pt;
 	text-decoration: overline;
 	font-family: "pt sans";
 	padding: 3%;
@@ -15,7 +15,7 @@
 }
 #section2{
 	color:#121212;
-	font-size: 40pt;
+	font-size: 35pt;
 	text-decoration: overline;
 	font-family: "pt sans";
 	padding: 3%;
@@ -23,7 +23,7 @@
 }
 #section3{
 	color:#121212;
-	font-size: 40pt;
+	font-size: 35pt;
 	text-decoration: overline;
 	font-family: "pt sans";
 	padding: 3%;
@@ -63,16 +63,14 @@ body {
 	margin-left: 19%;
 	margin-bottom: 6%;
 }
-iframe{
-	height: 500px !important;
-}
+
 #qizhe{
   font-family: "PingFang HK";
   font-size: 60pt;
   font-weight: 400;
   position: absolute;
   right:4%;
-  top:4%;
+  top:6%;
   color:lightgrey;
 }
 
@@ -116,7 +114,9 @@ iframe{
 }
 
 text {
-  font-family: 'PT Sans', sans-serif;
+	/* font-family: 'Cabin', sans-serif; */
+  /* font-family: "avenir"; */
+	font-family: 'PT Sans', sans-serif;
   font-size: 70pt;
   font-weight: lighter;
   text-decoration: underline;
@@ -148,7 +148,7 @@ li a{
 li {
 	font-family: "PingFang HK";
   display: inline;
-	padding-right: 10%;
+	padding-right: 8%;
 }
 #bottomName:hover{
 	color: inherit;
