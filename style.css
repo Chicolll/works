@@ -1,0 +1,262 @@
+#selected{
+	font-family: "Avenir";
+	font-size: 90pt;
+	padding-left: 3%;
+	padding-top: 1%;
+}
+
+#section1{
+	color:#121212;
+	font-size: 40pt;
+	text-decoration: overline;
+	font-family: "pt sans";
+	padding: 3%;
+	text-align: center;;
+}
+#section2{
+	color:#121212;
+	font-size: 40pt;
+	text-decoration: overline;
+	font-family: "pt sans";
+	padding: 3%;
+	text-align: center;;
+}
+#section3{
+	color:#121212;
+	font-size: 40pt;
+	text-decoration: overline;
+	font-family: "pt sans";
+	padding: 3%;
+	text-align: center;;
+}
+body {
+	background: #f3f3f3 !important;
+}
+.mainLinks:hover{
+	color: inherit;
+	text-decoration:none;
+}
+
+#date {
+	line-height: 140%;
+	text-decoration: underline;
+	font-family: 'Cabin', sans-serif;
+	font-size: 20pt;
+	font-weight: 300;
+	position: fixed;
+
+
+	position:fixed;
+	bottom:43%;
+	right:12%;
+	width: 2px;
+}
+
+.portrait{
+	margin-left: 35%;
+	width: 30%;
+	height: auto;
+	margin-bottom: 6%;
+}
+.landscape{
+	width: 62%;
+	margin-left: 19%;
+	margin-bottom: 6%;
+}
+iframe{
+	height: 500px !important;
+}
+#qizhe{
+  font-family: "PingFang HK";
+  font-size: 60pt;
+  font-weight: 400;
+  position: absolute;
+  right:4%;
+  top:4%;
+  color:lightgrey;
+}
+
+
+.topContainer{
+  height: 120vh;
+  width: 100%;
+  display: block;
+	border-bottom: 5px solid black;
+}
+
+.container{
+  display: block;
+  position: absolute;
+  left: 6%;
+  top: 6%;
+}
+
+
+
+#transition{
+  font-size: 40pt;
+  color:#919191;
+  font-family: 'PT Sans', sans-serif;
+  -webkit-animation: fadein2 0.7s; /* Safari, Chrome and Opera > 12.1 */
+      -moz-animation: fadein2 0.7s; /* Firefox < 16 */
+        -ms-animation: fadein2 0.7s; /* Internet Explorer */
+         -o-animation: fadein2 0.7s; /* Opera < 12.1 */
+            animation: fadein2 0.7s;
+}
+#transition:hover{
+  color: #212121;
+}
+
+#down{
+  color:#212121;
+  position: absolute;
+  bottom: -150px;
+  right: 50px;
+  font-size: 450px;
+}
+
+text {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 70pt;
+  font-weight: lighter;
+  text-decoration: underline;
+  stroke-dasharray: 100%;
+  stroke-dashoffset: 100%;
+
+  -webkit-animation: fadein 6s, draw 3s forwards; /* Safari, Chrome and Opera > 12.1 */
+      -moz-animation: fadein 6s, draw 3s forwards; /* Firefox < 16 */
+        -ms-animation: fadein 6s, draw 3s forwards; /* Internet Explorer */
+         -o-animation: fadein 6s, draw 3s forwards; /* Opera < 12.1 */
+            animation: fadein 6s, draw 3s forwards;
+
+}
+.bottom{
+	padding-top: 8vh;
+	padding-bottom: 2vh;
+	background-color: white;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li a{
+	color: #121212;
+	text-decoration: none;
+	font-size: 12pt;
+}
+li {
+	font-family: "PingFang HK";
+  display: inline;
+	padding-right: 10%;
+}
+#bottomName:hover{
+	color: inherit;
+}
+#bottomName{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 30pt;
+	text-decoration: underline;
+	padding-right: 2%;
+	padding-left: 4%;
+}
+footer{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 12pt;
+	color:lightgrey;
+	text-align: right;
+	width: 100%;
+	background-color: white;
+	position: absolute;
+	padding-right: 2%;
+	padding-bottom: 1%;
+}
+@-webkit-keyframes draw {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@-moz-keyframes draw {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@-o-keyframes draw {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@-ms-keyframes draw {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes draw {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+
+@keyframes fadein {
+    from { fill-opacity: 0; }
+    to   { fill-opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { fill-opacity: 0; }
+    to   { fill-opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { fill-opacity: 0; }
+    to   { fill-opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { fill-opacity: 0; }
+    to   { fill-opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { fill-opacity: 0; }
+    to   { fill-opacity: 1; }
+}
+
+
+
+
+
+
+@keyframes fadein2 {
+    from { opacity: 0; top:75px; }
+    to   { opacity: 1; top:0px;}
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein2 {
+  from { opacity: 0; top:75px; }
+  to   { opacity: 1; top:0px;}
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein2 {
+  from { opacity: 0; top:75px; }
+  to   { opacity: 1; top:0px;}
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein2 {
+  from { opacity: 0; top:75px; }
+  to   { opacity: 1; top:0px;}
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein2 {
+  from { opacity: 0; top:75px; }
+  to   { opacity: 1; top:0px;}
+}

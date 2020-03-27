@@ -1,0 +1,223 @@
+body{
+  background-color: #f3f3f3 !important;
+}
+h1{
+  padding-left: 3%;
+  padding-top: 2%;
+}
+#transition{
+  -webkit-animation: fadein 0.7s; /* Safari, Chrome and Opera > 12.1 */
+      -moz-animation: fadein 0.7s; /* Firefox < 16 */
+        -ms-animation: fadein 0.7s; /* Internet Explorer */
+         -o-animation: fadein 0.7s; /* Opera < 12.1 */
+            animation: fadein 0.7s;
+}
+#transition2{
+  -webkit-animation: fadein2 0.7s; /* Safari, Chrome and Opera > 12.1 */
+      -moz-animation: fadein2 0.7s; /* Firefox < 16 */
+        -ms-animation: fadein2 0.7s; /* Internet Explorer */
+         -o-animation: fadein2 0.7s; /* Opera < 12.1 */
+            animation: fadein2 0.7s;
+}
+#chico{
+  font-family: 'avenir';
+  text-decoration: underline;
+  color: #121212;
+}
+#chico:hover{
+  color: #121212;
+}
+#backLink:hover{
+  color: #121212;
+}
+#back{
+  color: #121212;
+  font-size: 60pt;
+  padding-left: 6%;
+  padding-top: 1%;
+}
+
+#title{
+  font-family: "avenir";
+  position: absolute;
+  font-size: 90pt;
+  right: 2%;
+  top: -5%;
+  color: lightgrey;
+}
+
+.imageGrid{
+  padding-top: 4%;
+  padding-bottom: 5%;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  justify-content: center;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 33%;
+  max-width: 32%;
+  padding: 0 1vw;
+}
+.columnTwoItems {
+  flex: 50%;
+  max-width: 45%;
+  padding: 0 1vw;
+}
+img {
+  margin-top: 2vw;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.bottom{
+	padding-top: 8vh;
+	padding-bottom: 2vh;
+	background-color: white;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li a{
+	color: #121212;
+	text-decoration: none;
+	font-size: 12pt;
+}
+li {
+  display: inline;
+	padding-right: 10%;
+}
+.container{
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+.singleVideo{
+  width: 80%;
+  padding-top: 4%;
+  padding-bottom: 5%;
+}
+#bottomName:hover{
+	color: inherit;
+}
+#bottomName{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 30pt;
+	text-decoration: underline;
+	padding-right: 2%;
+	padding-left: 4%;
+}
+footer{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 12pt;
+	color:lightgrey;
+	text-align: right;
+	width: 100%;
+	background-color: white;
+	position: absolute;
+	padding-right: 2%;
+	padding-bottom: 1%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 1000px) {
+  #title{
+    font-size: 70pt;
+    top: -2%;
+  }
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  #back{
+    font-size: 40pt;
+  }
+  #transition{
+    font-size: 20pt;
+  }
+  #title{
+    font-size: 40pt;
+    top: -2%;
+  }
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+
+
+
+
+@keyframes fadein {
+    from { opacity: 0; padding-left:5%; }
+    to   { opacity: 1; padding-left:3%;}
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from { opacity: 0; padding-left:5%; }
+  to   { opacity: 1; padding-left:3%;}
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from { opacity: 0; padding-left:5%; }
+  to   { opacity: 1; padding-left:3%;}
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  from { opacity: 0; padding-left:5%; }
+  to   { opacity: 1; padding-left:3%;}
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+  from { opacity: 0; padding-left:5%; }
+  to   { opacity: 1; padding-left:3%;}
+}
+
+
+
+
+
+@keyframes fadein2 {
+    from { opacity: 0; padding-left:3%; }
+    to   { opacity: 1; padding-left:0%;}
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein2 {
+  from { opacity: 0; padding-left:3%; }
+  to   { opacity: 1; padding-left:0%;}
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein2 {
+  from { opacity: 0; padding-left:3%; }
+  to   { opacity: 1; padding-left:0%;}
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein2 {
+  from { opacity: 0; padding-left:3%; }
+  to   { opacity: 1; padding-left:0%;}
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein2 {
+  from { opacity: 0; padding-left:3%; }
+  to   { opacity: 1; padding-left:0%;}
+}
