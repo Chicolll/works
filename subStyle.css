@@ -26,6 +26,7 @@ h1{
 }
 #chico:hover{
   color: #121212;
+
 }
 #backLink:hover{
   color: #121212;
@@ -101,13 +102,21 @@ li {
 
 }
 .soundcloud{
-  padding-top: 3%;
+  padding-top: 1%;
   padding-bottom: 3%;
 }
+#post_title{
+  font-family: 'PT Sans Caption', sans-serif;
+  text-decoration: underline;
+  font-size: 20pt;
+  text-align: left;
+  padding-left: 1%;
+}
 #audio{
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans Caption', sans-serif;
   text-align: center;
   color: 121212;
+  padding-bottom: 5%;
 }
 .singleVideo{
   width: 80%;
