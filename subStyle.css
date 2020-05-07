@@ -105,6 +105,19 @@ li {
   padding-top: 1%;
   padding-bottom: 3%;
 }
+.sound_design{
+  padding-top: 1%;
+  padding-bottom: 3%;
+  text-align: left;
+}
+#description_right{
+  font-family: 'PT Sans Caption', sans-serif;
+  position: absolute;
+  margin-left: 58%;
+  right:5%;
+  top:145%;
+  line-height: 200%;
+}
 #post_title{
   font-family: 'PT Sans Caption', sans-serif;
   text-decoration: underline;
